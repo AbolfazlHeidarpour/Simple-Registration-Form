@@ -1,10 +1,10 @@
-import {RegisterForm} from "./components/RegisterForm";
+import {RegisterFormApp} from "./components/RegisterFormApp";
 import './styles/styles.css';
 
 function App() {
   return (
     <>
-      <RegisterForm />
+      <RegisterFormApp />
     </>
   );
 }
