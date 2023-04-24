@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.formContainer {
+  width: 400px;
+  height: 400px;
+  box-shadow: 5px 5px 20px 5px #888;
+  align-items: center;
+  padding: 15px;
+  gap: 30px;
+}
+
+.form {
+  width: inherit;
+  justify-content: space-between;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.textField {
+  height: 64px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
